@@ -1,17 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, inital-sacale=1.0">
-    <title>Information Capture</title>
-    <link rel="stylesheet" href="DevBweb.css">
+    <title>Client Data</title>
 </head>
 <body>
-
-    <header class="header"
+    <h1>Please fill data in the form below:</h1>
+    <form method="POST" action="/post-feedback">
+        <label>Name:<input type="text" name="client-name" required></label>
+        <br>
+        <label>Email:<input type="text" name="client-email" required></label>
+        <br>
+        <label>Comment:<br><textarea name="comment"></textarea></label>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="/view-feedbacks">View feedbacks</a>
 </body>
-
-<title>Information Capture</title>
-<
+</html>
