@@ -1,2 +1,2 @@
 # DevBridge
-Ai Automation company
+Automation company
