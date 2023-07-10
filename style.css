@@ -1,3 +1,82 @@
+.Desktop1 {
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  background: white;
+}
+
+.BridgingDevsToBuisness {
+  width: 424px;
+  height: 44px;
+  left: 503px;
+  top: 736px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  font-family: Farro;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.BuisnessPortionLogoV11 {
+  width: 299px;
+  height: 258px;
+  left: 29px;
+  top: 167px;
+  position: absolute;
+}
+
+.Untitled31 {
+  width: 251px;
+  height: 181px;
+  left: 1115px;
+  top: 244px;
+  position: absolute;
+}
+
+.DevbridgeLogoV12 {
+  width: 606px;
+  height: 576px;
+  left: 412px;
+  top: 59px;
+  position: absolute;
+}
+
+.Group1 {
+  width: 510px;
+  height: 112px;
+  left: 460px;
+  top: 866px;
+  position: absolute;
+}
+
+.Rectangle1 {
+  width: 510px;
+  height: 112px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #8AE87B;
+  border-radius: 38px;
+}
+
+.HelpUsHelpYou {
+  width: 475px;
+  height: 24px;
+  left: 17px;
+  top: 32px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 48px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+
+
 * {
     box-sizing: border-box;
   }
