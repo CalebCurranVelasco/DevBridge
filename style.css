@@ -1,80 +1,118 @@
 /* index css ------------------------------------------------------------------------ */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 .Desktop1 {
-  width: 1440px;
-  height: 1024px;
+  width: 100%;
+  height: 100%;
   position: relative;
   background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .BridgingDevsToBuisness {
-  width: 424px;
-  height: 44px;
-  left: 503px;
-  top: 736px;
-  position: absolute;
+  margin-bottom: 5%;
   text-align: center;
   color: black;
-  font-size: 32px;
+  font-size: 2.5vw;
   font-family: Farro;
   font-weight: 400;
   word-wrap: break-word;
+  margin-bottom: 5vh;
 }
 
 .BuisnessPortionLogoV11 {
-  width: 299px;
-  height: 258px;
-  left: 29px;
-  top: 167px;
+  width: 20%;
+  height: auto;
+  left: 5%;
+  top: 15%;
   position: absolute;
+  top: 15%;
 }
 
 .Untitled31 {
-  width: 251px;
-  height: 181px;
-  left: 1115px;
-  top: 244px;
+  width: 15%;
+  height: auto;
+  right: 5%;
+  top: 20%;
   position: absolute;
 }
 
 .DevbridgeLogoV12 {
-  width: 606px;
-  height: 576px;
-  left: 412px;
-  top: 59px;
+  width: 40%;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
   position: absolute;
+  top: 15%;
 }
 
 .Group1 {
-  width: 510px;
-  height: 112px;
-  left: 460px;
-  top: 866px;
-  position: absolute;
+  width: 70%;
+  margin-bottom: 10vh; /* Add margin to the bottom of the .Group1 container */
 }
 
 .Rectangle1 {
-  width: 510px;
-  height: 112px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  background: #8AE87B;
-  border-radius: 38px;
+  width: 100%;
+  height: 100%;
+  background: #b982e7;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh; /* Add padding to the .Rectangle1 container */
 }
 
 .HelpUsHelpYou {
-  width: 475px;
-  height: 24px;
-  left: 17px;
-  top: 32px;
-  position: absolute;
+  width: 90%;
   text-align: center;
   color: black;
-  font-size: 48px;
+  font-size: 2.5vw;
   font-family: Inter;
   font-weight: 400;
   word-wrap: break-word;
+  margin: 0;
+  padding: 0;
 }
+
+
+
+/* Add a media query to target small screens */
+@media (max-height: 300px) {
+  .BridgingDevsToBuisness,
+  .Untitled31,
+  .Group1 {
+    display: none; /* Hide the elements */
+  }
+  .BuisnessPortionLogoV11{
+    display: none;
+  }
+  
+  .DevbridgeLogoV12 {
+    top: 50%; /* Center the logo vertically */
+    transform: translate(-50%, -50%); /* Center the logo horizontally */
+  }
+
+  
+  
+  .Desktop1 {
+    justify-content: center; /* Center the logo horizontally */
+    align-items: center; /* Center the logo vertically */
+  }
+} 
+
+
+
+
+
+
 
 
 /* sign up sheet css ---------------------------------------------------------------------------------------------------------------- */
