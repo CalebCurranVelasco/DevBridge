@@ -13,12 +13,26 @@
        });
      </script>
   </head>
-  
+  <section class="sticky">
+    <div class="bubbles">
+        <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      
+    </div>
+  </section>
   <body>
     <form action="" method="POST" id="registrationform">
       <h1>Register</h1>
       <div class="alert">Form Submitted Successfully</div>
-  
+      
       <!-- Section 1 -->
       <fieldset>
         <legend><span class="section">1</span>Your Company Info</legend>
@@ -35,8 +49,6 @@
       <!-- section 2 -->
       <fieldset>
         <legend><span class="section">2</span>Company Profile</legend>
-        <label class="" for="comments">Comments:</label>
-        <textarea name="comments" id="comments" required></textarea>
   
         <label for="company_type">Company Type:</label>
         <select name="company_type" id="company_type" required class="chosen-select">
@@ -76,8 +88,8 @@
         </select>
         <br /><br />
 
-        <label for="optimizations">Choose multiple options:</label>
-        <select id="optimizations" multiple class="chosen-select">
+        <label for="optimizations">Choose One or More Optimizations:</label>
+        <select id="optimizations" multiple required class="chosen-select">
           <option value="1">Implement Customer Relationship Management (CRM) software</option>
           <option value="2">Automate inventory management with software</option>
           <option value="3">Use project management software for better team collaboration</option>
@@ -101,7 +113,8 @@
 
         </select>
 
-
+        <label class="" for="comments">Comments:</label>
+        <textarea name="comments" id="comments" style="resize: verical; overflow-x: hidden;"></textarea>
 
 
   
