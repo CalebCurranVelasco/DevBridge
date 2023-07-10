@@ -26,31 +26,62 @@
   
       <!-- section 2 -->
       <fieldset>
-        <legend><span class="section">2</span>Profile</legend>
-        <label class="" for="bio">Bio:</label>
-        <textarea name="bio" id="bio" required></textarea>
+        <legend><span class="section">2</span>Company Profile</legend>
+        <label class="" for="comments">Comments:</label>
+        <textarea name="comments" id="comments" required></textarea>
   
-        <label for="job">Job Role:</label>
-        <select name="job" id="job" required>
+        <label for="company_type">Company Type:</label>
+        <select name="company_type" id="company_type" required>
           <optgroup label="Web">
-            <option value="front_end_developer">Frontend Developer</option>
-            <option value="back_end_developer">Backend Developer</option>
-            <option value="fullstack_developer">Fullstack Developer</option>
-          </optgroup>
-          <optgroup label="Mobile">
-            <option value="android">Android</option>
-            <option value="ionic">Ionic</option>
-            <option value="phonegap">PhoneGap</option>
+            <option value="online_retailer">Online Retailer</option>
+            <option value="software_development">Software Development</option>
+            <option value="ecommerce_platform">Ecommerce Platform</option>
+            <option value="consulting_agency">Consulting Agency</option>
+            <option value="marketing_agency">Marketing Agency</option>
+            <option value="healthcare_provider">Healthcare Provider</option>
+            <option value="manufacturing_company">Manufacturing Company</option>
+            <option value="financial_institution">Financial Institution</option>
+            <option value="technology_startup">Technology Startup</option>
+            <option value="logistics_company">Logistics Company</option>
+            <option value="telecommunications_provider">Telecommunications Provider</option>
+            <option value="advertising_company">Advertising Company</option>
+            <option value="hospitality_industry">Hospitality Industry</option>
+            <option value="media_production">Media Production</option>
+            <option value="automotive_manufacturer">Automotive Manufacturer</option>
+            <option value="food_and_beverage_retailer">Food and Beverage Retailer</option>
+            <option value="fashion_retailer">Fashion Retailer</option>
+            <option value="travel_agency">Travel Agency</option>
+            <option value="real_estate_developer">Real Estate Developer</option>
+            <option value="pharmaceutical_company">Pharmaceutical Company</option>
+            <option value="energy_provider">Energy Provider</option>
+            <option value="entertainment_company">Entertainment Company</option>
+            <option value="education_provider">Education Provider</option>
+            <option value="charitable_organization">Charitable Organization</option>
+            <option value="consulting_firm">Consulting Firm</option>
+            <option value="architecture_firm">Architecture Firm</option>
+            <option value="interior_design_company">Interior Design Company</option>
+            <option value="publishing_company">Publishing Company</option>
+            <option value="fitness_equipment_manufacturer">Fitness Equipment Manufacturer</option>
+            <option value="construction_company">Construction Company</option>
+            <option value="event_management">Event Management</option>
           </optgroup>
         </select>
         <br /><br />
-        <label>Interest:</label>
-  
-        <select id="interest" required>
-          <option value="development">Development</option>
-          <option value="design">Design</option>
-          <option value="business">Business</option>
+
+        <label for="option">Choose multiple options:</label>
+        <select name="option" id="option" required>
+          <optgroup label="option">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+            <option value="option5">Option 5</option>
+          </optgroup>
         </select>
+
+
+
+
   
         <button type="submit" sendMessage()>Register</button>
     </form>
