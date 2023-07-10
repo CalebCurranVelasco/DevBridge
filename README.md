@@ -1,2 +1,2 @@
-# DevBridge
+# devLynk
 Automation company
