@@ -26,18 +26,18 @@ input,select{vertical-align:middle}
     margin-bottom: 20px;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #1bbc9b;
+    background-color: #000;
     color: #fff;
-    font-size: 16px;
+    font-size: 50px;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .signup-button:hover {
-    background-color: #159572;
+    background-color: #C3A3D8;
 }
 
 /*!
