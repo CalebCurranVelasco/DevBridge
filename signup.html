@@ -144,7 +144,7 @@
         let company_name = document.querySelector('#company_name').value;
         let comments = document.querySelector('#comments').value;
         let company_type = document.querySelector('#company_type').value;
-        let optimizations = document.querySelector('#optimizations').value;
+        let optimizations = Array.from(document.querySelector('#optimizations').selectedOptions, option => option.value);
   
         //send message values(3)
         sendMessage(name, email, company_name, comments, company_type, optimizations);
