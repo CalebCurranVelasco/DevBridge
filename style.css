@@ -114,7 +114,7 @@ html, body {
   /* Styles for screens larger than 768px */
   .container {
     width: 768px;
-    height: 100%;
+    min-height: 100%;
     margin: 0 auto;
   }
 
@@ -129,7 +129,7 @@ html, body {
   /* Styles for screens larger than 1024px */
   .container {
     width: 1024px;
-    height: 100%;
+    min-height: 100%;
     margin: 0 auto;
   }
 
