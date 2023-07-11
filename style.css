@@ -6,7 +6,7 @@ html, body {
 
 .container {
   width: 100%;
-  min-height: 100%;
+  min-height: 100vh;;
   position: relative;
   background: white;
   display: flex;
@@ -32,6 +32,7 @@ html, body {
   position: relative;
   background: linear-gradient(#C3A3D8, #9198e5);
   border-radius: 30px;
+  padding: auto;
 }
 
 .about-overlay {
@@ -49,7 +50,7 @@ html, body {
 
 .about-text-container {
   position: relative;
-  padding: 20px;
+  padding: 10px;
 }
 
 .about-text {
@@ -67,6 +68,7 @@ html, body {
   height: auto;
   text-align: center;
   margin-top: 100px;
+  padding-bottom: 30px;
 }
 
 .content-overlay {
@@ -100,6 +102,7 @@ html, body {
   border-radius: 15px;
   border: none;
   cursor: pointer;
+  padding: 20px;
 }
 
 .signup-button:hover {
@@ -114,7 +117,7 @@ html, body {
   /* Styles for screens larger than 768px */
   .container {
     width: 768px;
-    min-height: 100%;
+    height: auto;
     margin: 0 auto;
   }
 
@@ -129,7 +132,7 @@ html, body {
   /* Styles for screens larger than 1024px */
   .container {
     width: 1024px;
-    min-height: 100%;
+    height: auto;
     margin: 0 auto;
   }
 
