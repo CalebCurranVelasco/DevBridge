@@ -189,6 +189,9 @@ html, body {
   input[type='text'],
   input[type='email'],
   input[type='company_name'],
+  input[type='company_type'],
+  input[type='optimizations'],
+  input[type='comments'],
   textarea,
   select {
     background: lightsteelblue;
